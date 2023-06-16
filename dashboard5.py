@@ -6,7 +6,7 @@ st.title('Science Mill Student Summer Camp Dashboard')
 
 # Raw GitHub link for your pre and post training data
 url_pre = 'https://raw.githubusercontent.com/henryco94/scienceMillDash/main/june12_pre.csv'
-url_post = 'https://raw.githubusercontent.com/henryco94/scienceMillDash/main/june12_post.csv'
+url_post = 'https://github.com/henryco94/studentdash/blob/main/stu_post_jun16.csv'
 
 # Load the pre and post survey data
 df_pre = pd.read_csv(url_pre)
