@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.title('Science Mill Student Summer Camp Dashboard')
 
 # Raw GitHub link for your pre and post training data
-url_pre = 'https://github.com/henryco94/studentdash/blob/main/stu_pre_jun15.csv'
+url_pre = 'https://raw.githubusercontent.com/henryco94/studentdash/main/stu_pre_jun15.csv'
 url_post = 'https://raw.githubusercontent.com/henryco94/studentdash/main/stu_post_jun16.csv'
 
 # Load the pre and post survey data
