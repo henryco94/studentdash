@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 st.title('Science Mill Student Summer Camp Dashboard')
 
 # Load the pre and post survey data
-df_pre = pd.read_csv('https://raw.githubusercontent.com/henryco94/scienceMillDash/main/concatenated.csv')
-df_post = pd.read_csv('https://raw.githubusercontent.com/henryco94/scienceMillDash/main/june12_post.csv')
+df_pre = pd.read_csv('stu_pre_jun15.csv')
+df_post = pd.read_csv('stu_post_jun16.csv')
 
 # Drop the specified columns
 columns_to_drop = ['#', 'Responder','Person', 'Teacher Number', 'Type', 'Approval Status', 'Date','Unnamed: 0', 'Student Number']
